@@ -14,6 +14,11 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/work
 
 const useStyles = makeStyles(styles);
 
+const sendEmail = (e) => {
+  console.log(e.target.name)
+  console.log("sendmail")
+}
+
 export default function WorkSection() {
   const classes = useStyles();
   return (
@@ -22,12 +27,11 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Work with us</h2>
           <h4 className={classes.description}>
-            Divide details about your product or agency work into parts. Write a
-            few lines about each one and contact us about any further
+            Contact us about any further
             collaboration. We will responde get back to you in a couple of
             hours.
           </h4>
-          <form>
+          <form onSubmit={sendEmail}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput

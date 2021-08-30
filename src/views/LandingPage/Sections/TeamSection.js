@@ -33,7 +33,7 @@ export default function TeamSection() {
     <div className={classes.section}>
       <h2 className={classes.title}>Here is our team</h2>
       <div>
-        <GridContainer>
+        <GridContainer style={{justifyContent: "center"}}>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -130,6 +130,87 @@ export default function TeamSection() {
                   An artist is a person engaged in an activity related to
                   creating art, practicing the arts, or demonstrating an art.
                   <br></br>
+                  <br></br>
+                  <br></br>
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-linkedin"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+         <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team1} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                The Podwick
+                <br />
+                <small className={classes.smallTitle}>CEO</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  As a manager, the CEO presides over the organization &apos;s
+                  day-to-day operations. ... The CEO is the person who is
+                  ultimately accountable for a company&apos;s business​
+                  <br></br>
+                  <br></br>
+                </p>
+              </CardBody>
+              <CardFooter className={classes.justifyCenter}>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-twitter"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-instagram"} />
+                </Button>
+                <Button
+                  justIcon
+                  color="transparent"
+                  className={classes.margin5}
+                >
+                  <i className={classes.socials + " fab fa-facebook"} />
+                </Button>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={team2} alt="..." className={imageClasses} />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Justin
+                <br />
+                <small className={classes.smallTitle}>Designer</small>
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  More formally, a designer is an agent that designs the clothes
+                  at her studio or desing room &quot;specifies the structural
+                  properties of a design object&quot;.
                   <br></br>
                   <br></br>
                 </p>

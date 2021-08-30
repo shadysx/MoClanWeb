@@ -20,7 +20,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
-//import WorkSection from "./Sections/WorkSection.js";
+import WorkSection from "./Sections/WorkSection.js";
 
 const dashboardRoutes = [];
 
@@ -50,7 +50,7 @@ export default function LandingPage(props) {
               <h1 className={classes.title}>Musical Collective</h1>
               <h4>
                 We are a musical collective from Belgium that&apos;s planning to
-                grow up really fast in the few next years.
+                grow up really fast in the next few years.
               </h4>
               <br />
               {/*<Button
@@ -71,7 +71,7 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
-          {/*<WorkSection />*/}
+          <WorkSection />
         </div>
       </div>
       <Footer />

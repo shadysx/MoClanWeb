@@ -1,0 +1,9 @@
+//Need Basic Display API
+//app-id = 394368035386275
+//app-secret ="9136153f866af6d499ebf1648ba8179e"
+//redirect_uri = "https://socialsizzle.herokuapp.com/auth/"
+//code="AQBrM1puHnuTlHy3-pjvcd5jQLmXsiXkSRp479dz0TwyItLSEGinJtM7YkYgLtx5lDv4bwb0L9z0J7JDqK3bLsSCLdqiLUzqFxHLNeWnbBH1dAiTk-QyoQnH5uteMxpCtma2Fs94kSAYuCZKjAYZjYQMQ-x5_nRnGfwxI2J_-S0swYFE9BzaRXnO0Akyr09Jpd7KmzHov6Puppra-biwrgasAIgNJXvlsXAfYvVP1koDCQ"
+
+var token = IGQVJXVUdpNld1M3JFd2U1Q3MwN25DUWVZAMnZAvVm42ck8xSEp5OWNhMzNSbjFiN2dWeXVySjVPRS1xc3pTM0lCZA1NYWnB0dk9GNkxzQUpqTm1LYVAwQ3JMRDhFcGV1OVBid2xJeUNQSEp4dW1OQV9MZAgZDZD
+
+console.log(token)
