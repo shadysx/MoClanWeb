@@ -29,6 +29,7 @@ const useStyles = makeStyles(styles);
 export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+  
   return (
     <div>
       <Header
@@ -43,6 +44,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
+
       <Parallax filter image={require("assets/img/landing2.jpeg").default}>
         <div className={classes.container}>
           <GridContainer>
@@ -74,6 +76,7 @@ export default function LandingPage(props) {
           <WorkSection />
         </div>
       </div>
+
       <Footer />
     </div>
   );
