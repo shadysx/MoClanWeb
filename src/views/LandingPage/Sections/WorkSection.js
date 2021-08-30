@@ -21,17 +21,16 @@ export default function WorkSection() {
   let history = useHistory()
 
   const sendEmail = (e) => {
-    console.log("sendmail")
+    e.preventDefault()
 
     emailjs.sendForm('gmail', 'template_2l58ebd', e.target, 'user_VwUeTtcGy3ax2N8pA7G2x')
     .then((result) => {
-
+      handler()
       console.log(result.text);
 
     }, (error) => {
       console.log(error.text);
     });
-      handler()
   }
 
   const handler = () => {
