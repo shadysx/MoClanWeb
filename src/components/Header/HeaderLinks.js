@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Menu, Storefront } from "@material-ui/icons";
+import { Menu, Storefront, Home} from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -26,7 +26,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           buttonText="Menu"
@@ -48,15 +48,24 @@ export default function HeaderLinks(props) {
             </a>,
           ]}
         />
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
           href="/landing-page"
           color="transparent"
+          className={classes.navLink}
+        >
+          <Home className={classes.icons} /> Home
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/shop-page"
+          color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <Storefront className={classes.icons} /> Boutique
+          <Storefront className={classes.icons} /> Shop
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

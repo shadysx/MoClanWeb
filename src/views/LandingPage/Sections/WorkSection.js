@@ -25,9 +25,11 @@ export default function WorkSection() {
 
     emailjs.sendForm('gmail', 'template_2l58ebd', e.target, 'user_VwUeTtcGy3ax2N8pA7G2x')
     .then((result) => {
-      handler()
       console.log(result.text);
 
+      setTimeout(() => {
+        handler()
+      }, 1000)
     }, (error) => {
       console.log(error.text);
     });
