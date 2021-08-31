@@ -65,7 +65,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Storefront className={classes.icons} /> Shop
+          <Storefront className={classes.icons} /> Collection
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

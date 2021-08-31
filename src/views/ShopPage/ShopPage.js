@@ -31,7 +31,7 @@ const ShopPage = () => {
         }}
       />
       <Parallax filter image={require("assets/img/spray-shop.jpg").default}>
-        <h1 style={styles.title}>Mo Shop</h1>
+        <h1 style={styles.title}>Mo Collection</h1>
       </Parallax>
       <ImageGallery/>
       <Footer/>
