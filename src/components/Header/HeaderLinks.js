@@ -62,7 +62,6 @@ export default function HeaderLinks(props) {
         <Button
           href="/shop-page"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <Storefront className={classes.icons} /> Collection
